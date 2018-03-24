@@ -1,0 +1,319 @@
+/* 
+        Clearfix 
+                    */
+
+.clearfix:before,
+.clearfix:after {
+ 	content: "";
+ 	display: table;
+}
+.clearfix:after {
+ 	clear: both;
+}
+.clearfix {
+ 	clear: both;
+ 	*zoom: 1;
+}
+
+
+
+
+
+
+/* 
+    Container structure 
+                        */
+
+html, body {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/circles-dark.png");
+    overflow-y: scroll;
+}
+
+/* All content contained in a 960px column */
+.content {
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+section .content {
+    min-height: calc(100vh - 173px);
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    margin-bottom: 25px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+img {
+    float: left;
+    margin-right: 25px;
+}
+
+/* images with text overlay, implemented as background images of 
+fixed-width, mostly-empty div elements */
+.img-over {
+    display: inline-block;
+    margin: 15px;
+}
+
+
+/* 
+    Typography 
+                */
+
+* {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 32px;
+    text-indent: 2em;
+}
+
+
+
+
+/* 
+    Images 
+            */
+
+img {
+    border-radius: 20px;
+}
+
+.img-over {
+    height: 200px;
+    width: 300px;
+    background-size: 300px 200px;
+}
+
+.img-over-music {
+    background-image: url('../images/pMusic.jpg');
+}
+
+.img-over-joke {
+    background-image: url('../images/pJoke.jpg');
+}
+
+.img-over-matrix {
+    background-image: url('../images/pMatrix.jpg');
+}
+
+.img-over-journal {
+    background-image: url('../images/pJournal.jpg');
+}
+
+.img-over-pixel {
+    background-image: url('../images/pPixel.jpg');
+}
+
+
+
+/* 
+    Links and navigation 
+                            */
+
+nav {
+    font-size: 16px;
+    line-height: 75px;
+}
+
+nav a {
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #eeeeee;
+    text-decoration: none;
+}
+
+nav :last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
+.about:hover {
+    background-color: #bbffff;
+}
+
+.portfolio:hover {
+    background-color: #ffbbff;
+}
+
+.contact:hover {
+    background-color: #ffffbb;
+}
+
+
+
+/* 
+    Links and navigation 
+                            */
+
+nav {
+    font-size: 16px;
+    line-height: 75px;
+}
+
+nav a {
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #eeeeee;
+    text-decoration: none;
+}
+
+nav :last-child {
+    border-right: none;
+}
+
+/* Link hover styles */
+
+nav a:hover {
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
+.about:hover {
+    background-color: #bbffff;
+}
+
+.portfolio:hover {
+    background-color: #ffbbff;
+}
+
+.contact:hover {
+    background-color: #ffffbb;
+}
+
+
+
+/* 
+    Headers/headings/footers common to all pages 
+                                                    */
+
+header {
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    line-height: 40px;
+    text-align: top;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding-top: 25px;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+footer small {
+    font-size: 10pt;
+    color: #ffffff;
+}
+
+
+/* INDIVIDUAL PAGES */
+
+/* 
+    About Me 
+                */
+
+/* 
+    Portfolio 
+                */
+
+h3 {
+    width: 100%;
+    position: relative;
+    bottom: -70%;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* 
+        Contact 
+                    */
+
+h4 {
+    line-height: 36px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+.button-submit {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-submit:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+}

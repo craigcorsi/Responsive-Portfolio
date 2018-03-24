@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Craig Corsi -- Full Stack Web Developer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header title and nav bar common to all pages;
+the 'clearfix' allows the <h1> and <nav> to be positioned with float -->
+    <header class="clearfix">
+        <!-- Anything wrapped as 'content' has width set to 960px -->
+        <div class="content">
+            <h1>Craig Corsi</h1>
+            <nav>
+                <a href="index.html" class="about">About</a>
+                <a href="portfolio.html" class="portfolio">Portfolio</a>
+                <a href="contact.html" class="contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <h2>Contact</h2>
+
+            <form action="" method="post">
+                <label>
+                    <h4>Name</h4>
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    <h4>Email</h4>
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    <h4>Message</h4>
+                    <textarea name="Message" rows="10"></textarea>
+                </label>
+            </form>
+            <br>
+            <!-- Pressing 'submit' redirects to the About Me page and 
+                ignores user input... for now :-) -->
+            <a href="index.html" class="button button-submit">Submit!</a>
+        </div>
+    </section>
+
+    <footer>
+        <small>&copy; Craig Corsi 2018</small>
+    </footer>
+</body>
+</html>
