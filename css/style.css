@@ -41,12 +41,15 @@ body {
     background-color: #ffffff;
 }
 
-section .content {
+section {
     min-height: calc(100vh - 173px);
+}
+
+section .content {
     margin-top: 25px;
     padding: 25px;
     border: 1px solid #dddddd;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 h1 {
@@ -134,6 +137,17 @@ img {
 
 .img-over-pixel {
     background-image: url('../images/pPixel.jpg');
+}
+
+.img-thumbnail {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.img-thumbnail:hover {
+    background-color: #dddddd;
 }
 
 
@@ -317,3 +331,26 @@ textarea {
     background-color: #ffffff;
     color: #4aaaa5;
 }
+
+
+
+
+/* Media Queries for when the screen resolution is changed */
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    
+}
+  
