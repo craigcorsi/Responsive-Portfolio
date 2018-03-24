@@ -3,6 +3,7 @@
 <head>
     <title>Craig Corsi -- Full Stack Web Developer</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,11 +22,11 @@ the 'clearfix' allows the <h1> and <nav> to be positioned with float -->
         </div>
     </header>
 
-    <section>
-        <div class="content clearfix">
+    <section class="two-cols clearfix">
+        <div class="content clearfix col-2-3">
             <h2>About Me</h2>
 
-            <img src="images/CMCtutoringpic.jpg" alt="Me at a coffee shop" height="150px">
+            <img class="pic-of-me" src="images/CMCtutoringpic.jpg" alt="Me at a coffee shop" width="225px">
 
             <p>I am a full stack web developer living in Uptown Minneapolis, Minnesota. My background is academic, as I have recently attained a Master's degree in Mathematics at the University of Minnesota and am currently a Ph.D. candidate there. I also have a performing arts background, with experience both performing and teaching improv comedy. </p>
 
@@ -34,19 +35,19 @@ the 'clearfix' allows the <h1> and <nav> to be positioned with float -->
             <p>Hobbies include comedy, theater, board gaming, video gaming, and karaoke!</p>
         </div>
 
-        <div class="content clearfix">
+        <div class="content clearfix col-1-3 thumbnail-wrapper">
             <h2>Connect with Me</h2>
 
             <a href="https://github.com/craigcorsi" target="_blank">
-                <img class="img-thumbnail thumb-github" src="images/thumb-gh.png" alt="My Github Page" height="75px">
+                <img class="img-thumbnail thumb-gh" src="images/thumb-gh.png" alt="My Github Page" height="50px">
             </a>
 
             <a href="https://www.linkedin.com/in/craig-corsi-5452b0154/" target="_blank">
-                <img class="img-thumbnail thumb-li" src="images/thumb-li.png" alt="My Linkedin Page" height="75px">
+                <img class="img-thumbnail thumb-li" src="images/thumb-li.png" alt="My Linkedin Page" height="50px">
             </a>
 
             <a href="https://stackoverflow.com/users/9157679/craig?tab=profile" target="_blank">
-                <img class="img-thumbnail" src="images/thumb-so.png" alt="My Github Page" height="75px">
+                <img class="img-thumbnail thumb-so" src="images/thumb-so.png" alt="My Github Page" height="50px">
             </a>
         </div>
     </section>
