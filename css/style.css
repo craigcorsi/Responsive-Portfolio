@@ -49,7 +49,6 @@ section .content {
     margin: 25px auto 25px auto;
     padding: 25px;
     border: 1px solid #dddddd;
-
 }
 
 h1 {
@@ -158,11 +157,12 @@ img {
 nav {
     font-size: 16px;
     line-height: 75px;
-    width: 40%;
+    width: 250px;
+    margin: 0 auto;
 }
 
 nav a {
-    border-right: 1px solid #eeeeee;
+    padding: 1px 3%;
     text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ nav a:hover {
 
 
 
-/* 
+/*  
     Headers/headings/footers common to all pages 
                                                     */
 
@@ -378,15 +378,11 @@ textarea {
     }
 
     nav {
+        float: none;
+        width: 40%;
+        min-width: 250px;
         line-height: 30px;
-        width: 100%;
     }
 
-    nav a {
-        border: none;
-        padding: none;
-        margin: none;
-        width: 33%;
-    }
 }
   
