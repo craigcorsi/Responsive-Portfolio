@@ -22,8 +22,8 @@ the 'clearfix' allows the <h1> and <nav> to be positioned with float -->
         </div>
     </header>
 
-    <section>
-        <div class="content">
+    <section class="two-cols">
+        <div class="content clearfix col-2-3">
             <h2>Contact</h2>
 
             <form action="" method="post">
@@ -44,6 +44,22 @@ the 'clearfix' allows the <h1> and <nav> to be positioned with float -->
             <!-- Pressing 'submit' redirects to the About Me page and 
                 ignores user input... for now :-) -->
             <a href="index.html" class="button button-submit">Submit!</a>
+        </div>
+
+        <div class="content clearfix col-1-3 thumbnail-wrapper">
+            <h2>Connect with Me</h2>
+
+            <a href="https://github.com/craigcorsi" target="_blank">
+                <img class="img-thumbnail thumb-gh" src="images/thumb-gh.png" alt="My Github Page" height="50px">
+            </a>
+
+            <a href="https://www.linkedin.com/in/craig-corsi-5452b0154/" target="_blank">
+                <img class="img-thumbnail thumb-li" src="images/thumb-li.png" alt="My Linkedin Page" height="50px">
+            </a>
+
+            <a href="https://stackoverflow.com/users/9157679/craig?tab=profile" target="_blank">
+                <img class="img-thumbnail thumb-so" src="images/thumb-so.png" alt="My Github Page" height="50px">
+            </a>
         </div>
     </section>
 

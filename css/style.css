@@ -114,7 +114,7 @@ img {
 
 .img-over {
     height: 200px;
-    width: 300px;
+    width: 250px;
     background-size: 300px 200px;
 }
 
@@ -336,13 +336,13 @@ textarea {
         width: 54%;
     }
 
+    .img-over {
+        width: 92%;
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
-    /* header, .content {
-        width: 90%;
-    } */
 
     .col-1-3, .col-2-3 {
         position: static;
@@ -353,6 +353,11 @@ textarea {
 
     .pic-of-me {
         width: 225px;
+    }
+
+    .img-over {
+        width: 40%;
+        display: inline-block;
     }
 
 }
@@ -384,5 +389,9 @@ textarea {
         line-height: 30px;
     }
 
+    .img-over {
+        display: block;
+        width: 92%;
+    }
 }
   
